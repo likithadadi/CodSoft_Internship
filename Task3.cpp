@@ -81,7 +81,7 @@ void moves(){
    }
    else{
       cout<<"No empty space \n";
-      //moves();
+      moves();
    }
    structure();
 }
@@ -117,7 +117,6 @@ int main(){
    while(!checkCondition()){
       structure();
       moves();
-      // checkCondition();
    }
 
    if(token=='O' && draw==false)
